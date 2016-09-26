@@ -1,4 +1,13 @@
 # libsignal [WIP]
+right so i've forked this openbazaar libsignal fork mostly to replace all AES crypto primitives with ChaCha20
+identity keys to be switched to ed25519
+mac's to poly1305
+
+yay.
+
+bellow is the 'original' OpenBazaar readme
+
+----
 This go library is an implementation of the signal asynchronous messaging [protocol](https://whispersystems.org/blog/advanced-ratcheting/) modified for use in OpenBazaar.
 
 Modifications include:
